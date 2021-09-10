@@ -1,0 +1,21 @@
+.first, .second{
+    width: 200px;
+    height: 200px;
+    border: 10px black solid;
+    margin: 50px 100px
+}
+
+.main{
+    display: flex;
+}
+
+
+.first{
+    background-color: red;
+    /*padding: 50px 150px*/
+    margin: 0 auto;
+}
+.second{
+    background-color: blue;
+    
+}

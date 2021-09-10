@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 64px;
+            font-weight: 700;
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .left, .right{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .green{
+            width: 400px;
+            height: 200px;
+            background-color: green;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .red{
+            width: 400px;
+            height: 400px;
+            background-color: cyan;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .blue{
+            width: 400px;
+            height: 600px;
+            background-color: #ff0000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        div{
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="left">
+        <div class="green">Box 1</div>
+        <div class="red">Box 2</div>
+    </div>
+    <div class="right">
+        <div class="blue">Box 3</div>
+    </div>
+</body>
+</html>
